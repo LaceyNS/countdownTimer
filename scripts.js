@@ -48,7 +48,6 @@ function displayEndTime(timestamp) {
 function startTimer() {
     const seconds = parseInt(this.dataset.time);
     timer(seconds);
-    console.log(seconds);
 }
 
 
